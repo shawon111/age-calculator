@@ -1,0 +1,24 @@
+body {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(255, 215, 233);
+    background: radial-gradient(circle, rgba(255, 215, 233, 1) 0%, rgba(210, 230, 255, 1) 100%);
+}
+
+.calculator {
+    min-height: 100vh;
+}
+
+.calculator .container,
+.calculator .container .row {
+    min-height: 100vh;
+}
+
+.calculator .container .row {
+    align-items: center;
+}
+
+button#calculate {
+    background-color: black;
+    color: #fff;
+}
